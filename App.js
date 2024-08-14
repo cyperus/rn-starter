@@ -17,7 +17,7 @@ import React from "react";
 // function ButtonTitle() {
 //   return <Button title={'Title'}/>
 // }
-const AuthContext = React.createContext();
+export const AuthContext = React.createContext();
 const Tab = createBottomTabNavigator();
 
 function Home() {
